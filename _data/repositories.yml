@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ram1123
+  # - alshedivat
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ram1123/nanoAOD_skim
+  - ram1123/CMS_FulllSimulation
+  - ram1123/CustomNanoAOD_HHWWgg
+  - ram1123/MadGraph_With_Condor
+  - ram1123/Fiducial_XS

@@ -2,11 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+My interest in teaching developed during the 12 years I spent educating school students prior to my PhD studies, which I pursued as a part-time hobby. This formative period fueled my passion for education and honed my ability to explain complex topics in a clear and engaging manner.
 
-Organize your courses by years, topics, or universities, however you like!
+Although there was a brief interlude where I did not engage in teaching, I am currently supervising three PhD students. Previously, I have successfully guided two PhD students and one Master’s student through their research journeys. These experiences underscore my commitment to nurturing the next generation of scholars in our field.
