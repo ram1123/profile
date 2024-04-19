@@ -1,4 +1,3 @@
-
 I am an experienced, high-energy physicist with a PhD in experimental particle physics. My research focuses on the Higgs properties, vector boson scattering and the measurement of anomalous gauge coupling in the electroweak symmetry-breaking sector of the standard model. I have extensive experience with the development and R&D of a gaseous electron multiplier (GEM) detector for the compact muon solenoid (CMS) detector at the LHC.
 
 Currently, I am working on the measurement of anomalous triple gauge couplings using the VV semi-leptonic channel, the search for high mass scalar Higgs like particle that decays to ZZ to 2l2Q, and the search for resonant particles that decay to HH->WWgg, using both semi-leptonic and fully hadronic decay channels of WW. I am also involved in the High mass Higgs search using the ZZ decay channel.
