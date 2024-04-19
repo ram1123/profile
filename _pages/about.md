@@ -9,11 +9,11 @@ profile:
   image: my_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 B653/R-014</p>
-    <p>123 CERN</p>
-    <p>Meyrin Geneva Switzerland 1211</p>
+    <p>B653/R-014</p>
+    <p>CERN</p>
+    <p>Meyrin, Geneva, Switzerland 1211</p>
 
-news: true # includes a list of news items
+# news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
