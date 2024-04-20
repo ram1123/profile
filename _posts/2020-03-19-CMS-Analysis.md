@@ -7,12 +7,10 @@ tags: cms physics-analysis
 comments: true
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
-
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Important Steps With References
-
 
 ## CMS dataset naming convention
 
@@ -68,5 +66,4 @@ Reference: [https://twiki.cern.ch/twiki/bin/viewauth/CMS/ProductionDataSetNames]
 - **post-VFP era**: The era when the HIP effect was not there
 - **VFP**: Preamplifier Feedback Voltage Bias
 
-Detailed explanation of this effect: Master thesis of Markéta JANSOVÁ:  https://cds.cern.ch/record/2647308/files/CERN-THESIS-2018-242.pdf
-
+Detailed explanation of this effect: Master thesis of Markéta JANSOVÁ: https://cds.cern.ch/record/2647308/files/CERN-THESIS-2018-242.pdf

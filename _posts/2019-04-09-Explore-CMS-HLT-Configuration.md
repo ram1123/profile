@@ -5,8 +5,9 @@ date: 2019-04-09
 categories: [CMS, HLT]
 comments: true
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # confdb
 
@@ -14,12 +15,12 @@ This should work: [https://indico.cern.ch/event/850482/contributions/3574537/att
 
 last time I directly cloned
 
-
 ```bash
 git clone <https://github.com/cms-sw/hlt-confdb>
 ```
 
 then
+
 ```bash
 ./start
 ```
@@ -36,4 +37,3 @@ then
 8. Then click on the detailed view
 9. Search your **trigger** from the list
 10. Select the last filter of the sequence
-

@@ -6,8 +6,8 @@ categories: madgraph matching merging
 comments: true
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # What is matching?
 
@@ -15,13 +15,10 @@ We need to perform matching to avoid the double counting while interfacing the m
 
 # What is merging?
 
-
-
 # Important point while using matching
 
 1. $qCut > p_{T}$
 2. Check the Differential Jet Rate (DJR) distribution should be smooth.
-
 
 # References
 

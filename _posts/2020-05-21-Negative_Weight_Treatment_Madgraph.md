@@ -7,23 +7,21 @@ tags: cms madgraph PhysicsAnalysis GenWeight
 comments: true
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Negative weights?
-
-
 
 # How to handle it?
 
 - Say if there are total of 100 events.. out of them 10 have -ve weights.
 - so the 10 events that have -ve weights should be cancelled using 10 +ve weights so in general at the end of day we left we 80 events...
 - but we don't just use the number 80 as it is
-- We apply the weight (+1 or -1)  to each event as per the weight.
+- We apply the weight (+1 or -1) to each event as per the weight.
 - and we so the scaling like:
-   ```bash
-   (Cross-sectioon x Lumi) / (Nevents - 2*NNegevents)
-   ```
+  ```bash
+  (Cross-sectioon x Lumi) / (Nevents - 2*NNegevents)
+  ```
 
 # References
 

@@ -6,13 +6,13 @@ categories: bash shell programming
 tags: bash
 comments: true
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Bash Manual
 
 https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Contents
-
 
 # Sync two directories using rsync from remote to local
 
@@ -71,13 +71,14 @@ Reference: https://stackoverflow.com/q/23331864/2302094
 
 Reference: [http://tldp.org/LDP/abs/html/comparison-ops.html](http://tldp.org/LDP/abs/html/comparison-ops.html)
 
-
 # Convert number from decimal to hexadecimal
 
 ```bash=
  echo "ibase=10; obase=16; 29" | bc
 ```
+
 **output:**
+
 ```bash=
 1D
 ```

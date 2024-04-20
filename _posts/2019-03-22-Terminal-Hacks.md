@@ -5,8 +5,9 @@ date: 2019-03-22
 categories: [terminal, bash]
 comments: true
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Start and End of line
 

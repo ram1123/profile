@@ -7,60 +7,68 @@ tags: mc-generators madgraph gridpack genproduction
 comments: true
 last_modified_at: 2022-11-11
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # MadGraph Introduction
 
 # Inputs for GridPack Generation
+
 There are several input file one need for the GridPack generation. They are:
+
 1. proc card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_proc_card.dat)
-    1. Proc card contains the information for the process to generate.
 
-3. madspin card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_madspin_card.dat)
-    1. If one need to decay a particle (say W-boson) then add the corresponding information in this file.
+   1. Proc card contains the information for the process to generate.
 
-1. run card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_run_card.dat)
-    1. run card sets parameters of run. Like: number of events, beam type and its energy, which pdf we would like to use, some cuts on particle properties like on pt, eta, etc.
+2. madspin card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_madspin_card.dat)
 
+   1. If one need to decay a particle (say W-boson) then add the corresponding information in this file.
+
+3. run card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_run_card.dat)
+
+   1. run card sets parameters of run. Like: number of events, beam type and its energy, which pdf we would like to use, some cuts on particle properties like on pt, eta, etc.
 
 4. model card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_extramodels.dat)
-    1. If the physics model that we are using is not SM then we need to add the model name in this card.
-6. customize card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_customizecards.dat)
-    1. If one need to modify some parameter of the genration then pass the corresponding information in this file.
-5. reweight card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_reweight_card.dat)
-    1. If one need to generate sample with same model but by varying some parameter of a model. Then instead of generating additional sample for each parameter one can add these information in reweight card and it saves weights corresponding to each parameters.
+   1. If the physics model that we are using is not SM then we need to add the model name in this card.
+5. customize card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_customizecards.dat)
+   1. If one need to modify some parameter of the genration then pass the corresponding information in this file.
+6. reweight card: [Example](https://github.com/cms-sw/genproductions/blob/pre2017/bin/MadGraph5_aMCatNLO/cards/production/13TeV/VBS/VVjj_semileptonic/aQGC/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10/aQGC_WPlepWMhadJJ_EWK_LO_NPle1_mjj100pt10_reweight_card.dat)
+   1. If one need to generate sample with same model but by varying some parameter of a model. Then instead of generating additional sample for each parameter one can add these information in reweight card and it saves weights corresponding to each parameters.
 
 # How To Generate
 
 ## Generate GridPack
 
 1. Checkout the `genproductions` package from github:
-    ```bash
-    git clone https://github.com/cms-sw/genproductions.git
-    ```
+   ```bash
+   git clone https://github.com/cms-sw/genproductions.git
+   ```
 1. Add the necessary input cards at the appropriate place:
-    ```bash
-    #Path where one need to put cards
-    cd bin/MadGraph5_aMCatNLO/cards/production/13TeV/
-    #create the directory where you will put the cards
-    mkdir Test
-    #Place the cards inside the `Test` directory
-    ```
-    Example card:
-    [https://github.com/ram1123/genproductions/tree/673e25b126d618890dd6dc5bbd8cc88bc0faf816/bin/MadGraph5_aMCatNLO/cards/production/13TeV/AnomalousCouplings-SMP/aQGC_WPlepWMhadJJ_EWK_LO_NPle1](https://github.com/ram1123/genproductions/tree/673e25b126d618890dd6dc5bbd8cc88bc0faf816/bin/MadGraph5_aMCatNLO/cards/production/13TeV/AnomalousCouplings-SMP/aQGC_WPlepWMhadJJ_EWK_LO_NPle1)
+
+   ```bash
+   #Path where one need to put cards
+   cd bin/MadGraph5_aMCatNLO/cards/production/13TeV/
+   #create the directory where you will put the cards
+   mkdir Test
+   #Place the cards inside the `Test` directory
+   ```
+
+   Example card:
+   [https://github.com/ram1123/genproductions/tree/673e25b126d618890dd6dc5bbd8cc88bc0faf816/bin/MadGraph5_aMCatNLO/cards/production/13TeV/AnomalousCouplings-SMP/aQGC_WPlepWMhadJJ_EWK_LO_NPle1](https://github.com/ram1123/genproductions/tree/673e25b126d618890dd6dc5bbd8cc88bc0faf816/bin/MadGraph5_aMCatNLO/cards/production/13TeV/AnomalousCouplings-SMP/aQGC_WPlepWMhadJJ_EWK_LO_NPle1)
 
 1. To run gridpack generation interactively:
-    ```bash
-    gridpack_generation.sh <CardName> <CardPath>
-    ```
+   ```bash
+   gridpack_generation.sh <CardName> <CardPath>
+   ```
 1. Submit the batch job for gridpack generation
-    ```bash
-    ./submit_gridpack_generation.sh <memoryInMBytes> <diskInMBytes> <queueForMasterJob> <name of process card without _proc_card.dat> <folder containing cards relative to current location> <queue>
-    ```
 
-    - **NOTE:** Nice script exists by Ramanpreet to submit jobs over condor using genproduction: [here](https://github.com/singh-ramanpreet/genproductions/tree/submit-singlejob-condor/bin/MadGraph5_aMCatNLO)
-        - Follow the README in the link
+   ```bash
+   ./submit_gridpack_generation.sh <memoryInMBytes> <diskInMBytes> <queueForMasterJob> <name of process card without _proc_card.dat> <folder containing cards relative to current location> <queue>
+   ```
+
+   - **NOTE:** Nice script exists by Ramanpreet to submit jobs over condor using genproduction: [here](https://github.com/singh-ramanpreet/genproductions/tree/submit-singlejob-condor/bin/MadGraph5_aMCatNLO)
+     - Follow the README in the link
 
 ### Gridpack generation using CMSConnect
 
@@ -86,6 +94,3 @@ Reference: [https://twiki.cern.ch/twiki/bin/viewauth/CMS/QuickGuideMadGraph5aMCa
 # FAQ
 
 # Possible Issues
-
-
-

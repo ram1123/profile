@@ -6,7 +6,5 @@ categories: scalar, cms
 comments: true
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
-
-
+- Do not remove this line (it will not be displayed)
+  {:toc}

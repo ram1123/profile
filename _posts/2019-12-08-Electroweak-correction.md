@@ -6,8 +6,8 @@ categories: physics
 comments: true
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Electroweak correction
 
@@ -20,4 +20,3 @@ comments: true
 - When large scale differences occur resummation is needed in either case.
 
 Reference: [https://indico.cern.ch/event/814040/contributions/3452480/attachments/1860014/3056536/psr_schoenherr.pdf](https://indico.cern.ch/event/814040/contributions/3452480/attachments/1860014/3056536/psr_schoenherr.pdf)
-

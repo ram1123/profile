@@ -6,8 +6,8 @@ categories: monte-carlo madgraph
 comments: true
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Some questions
 
@@ -35,14 +35,8 @@ comments: true
    Other possibilities are [real=QCD] or [loop=QCD] to exclude the virtual diagrams.
    ```
 
-2. What is the meaning of the order QED/QCD?
+1. What is the meaning of the order QED/QCD?
 
    ```
    By default madgraph takes lowest order of QED and highest order of QCD.
    ```
-
-
-
-
-
-

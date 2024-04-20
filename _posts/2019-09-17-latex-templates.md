@@ -6,8 +6,9 @@ tags: latex
 categories: programming
 comments: true
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 List of few templates are given below:
 
