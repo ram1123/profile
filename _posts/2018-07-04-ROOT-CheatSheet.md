@@ -7,15 +7,15 @@ tags: root cpp pyroot
 comments: true
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # ListOfKeys
 
 - `tfile->GetListOfKeys()->Print()`
-  + prints all the keys in the tfile or ttree.
+  - prints all the keys in the tfile or ttree.
 - `tfile->GetListOfKeys()->Contains("xyz")`
-  + returns `True (False)`, if the key named `xyz` exists (does not exists) in the input root file or tree.
+  - returns `True (False)`, if the key named `xyz` exists (does not exists) in the input root file or tree.
 
 # quickly inspect root file
 
@@ -120,23 +120,23 @@ void TTreeReader_Macro() {
 
 https://root-forum.cern.ch/t/histogram-from-a-text-file/13287/2?u=ramkrishna
 
-
 - Try TGraph: [url] http://root.cern.ch/root/html/TGraph.html
 - Store your data in a simple text file, e.g. "MyData.txt", then try:
 - Try TGraph instead: [url]http://root.cern.ch/root/html/TGraph.html
 - Store your data in a simple text file, e.g. "MyData.txt", then try:
-    ```
-    root [0] TGraph *MyGraph = new TGraph("MyData.txt");
-    root [0] TGraph *MyGraph = new TGraph("MyData.txt");
-    root [1] MyGraph->Draw("A*");
 
-    root [1] MyGraph->Draw("A*");
-    ```
+  ```
+  root [0] TGraph *MyGraph = new TGraph("MyData.txt");
+  root [0] TGraph *MyGraph = new TGraph("MyData.txt");
+  root [1] MyGraph->Draw("A*");
+
+  root [1] MyGraph->Draw("A*");
+  ```
 
 - Or, try a TTree instead: [url]http://root.cern.ch/root/html/TTree.html[/url]
 - Again, store your data in a simple text file, e.g. "MyData.txt", then try:
 - Or, try a TTree instead: [url]http://root.cern.ch/root/html/TTree.html[/url]
-Again, store your data in a simple text file, e.g. "MyData.txt", then try:
+  Again, store your data in a simple text file, e.g. "MyData.txt", then try:
 
 ```
 root [0] TTree *MyTree = new TTree("MyTree", "MyTree");
@@ -148,7 +148,6 @@ root [1] MyTree->ReadFile("MyData.txt", "Energy_1:Energy_2");
 root [2] MyTree->Draw("Energy_1:Energy_2", "", "*");
 root [3] MyTree->Draw("Energy_1");
 ```
-
 
 # Redirecting output (ROOT-6)
 
@@ -168,7 +167,7 @@ Reference: [https://root-forum.cern.ch/t/redirecting-output-root-6/18668/12?u=ra
 
 **To fill full output of scan command do this**:
 
-Use `tree->SetScanField(0);`  to see all raw of the tree. Reference: [link](https://root.cern.ch/root/htmldoc/guides/users-guide/Trees.html#simple-analysis-using-ttreedraw)
+Use `tree->SetScanField(0);` to see all raw of the tree. Reference: [link](https://root.cern.ch/root/htmldoc/guides/users-guide/Trees.html#simple-analysis-using-ttreedraw)
 
 ```c++
 $root -l
@@ -331,6 +330,7 @@ bool analyze(TFile* file) {
 # Constant or Variable Histogram binningxs
 
 ## Example of variable binning
+
 ```c++
    const Int_t NBINS = 5;
    Double_t edges[NBINS + 1] = {0.0, 0.2, 0.3, 0.6, 0.8, 1.0};
@@ -346,6 +346,7 @@ bool analyze(TFile* file) {
 ```
 
 ## Example of constant binning
+
 ```c++
 TH2* h = new TH2D(
       /* name */ "h2",
@@ -356,14 +357,15 @@ TH2* h = new TH2D(
 
 # Create directory in root file
 
-  ```c++
-  // create a new Root file
-     TFile *top = new TFile("top.root","recreate");
+```c++
+// create a new Root file
+   TFile *top = new TFile("top.root","recreate");
 
-     // create a subdirectory "tof" in this file
-     TDirectory *cdtof = top->mkdir("tof");
-     cdtof->cd();    // make the "tof" directory the current directory
-  ```
+   // create a subdirectory "tof" in this file
+   TDirectory *cdtof = top->mkdir("tof");
+   cdtof->cd();    // make the "tof" directory the current directory
+```
+
 Reference: [https://root.cern.ch/root/html/tutorials/io/dirs.C.html](https://root.cern.ch/root/html/tutorials/io/dirs.C.html)
 
 # Convert Int to TString
@@ -375,6 +377,7 @@ Form("test_%d",23)
 # Save everything from ROOT file
 
 ## Method:1
+
 ```python
 import ROOT as r
 
@@ -434,7 +437,6 @@ for k in keys:
             h.SaveAs(name.Data())
 ```
 
-
 Another good exampel: [http://rivet.hepforge.org/svn/tags/rivet-1.6.0/bin/root2flat](http://rivet.hepforge.org/svn/tags/rivet-1.6.0/bin/root2flat)
 
 ## In C++
@@ -446,7 +448,6 @@ in C++ it can be done like this
 
   My_class *my_objptr = (My_class *) my_fileptr->Get("my_objectname");
 ```
-
 
 ```c++
 TFile* myfile = TFile::Open("EfficiencyFits.root");
@@ -487,7 +488,6 @@ Reference: [https://root-forum.cern.ch/t/decimal-precision-with-text-drawing-opt
 
 # Some tutorial link
 
-1. Best tutorial: [https://www-zeuthen.desy.de/~middell/_downloads/pyroot.pdf](https://www-zeuthen.desy.de/~middell/_downloads/pyroot.pdf)
+1. Best tutorial: [https://www-zeuthen.desy.de/~middell/\_downloads/pyroot.pdf](https://www-zeuthen.desy.de/~middell/_downloads/pyroot.pdf)
 2. [https://wiki-zeuthen.desy.de/LCInfo/PythonExamples](https://wiki-zeuthen.desy.de/LCInfo/PythonExamples)
 3. C++ : Tip of weekL: [http://wlav.web.cern.ch/wlav/ctotw/](http://wlav.web.cern.ch/wlav/ctotw/)
-

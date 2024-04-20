@@ -7,8 +7,9 @@ tags: statistics cms-combine
 comments: true
 last_modified_at: 2022-05-10
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # What is CMS Combine tool?
 
@@ -27,13 +28,13 @@ RooStats/RooFit - based software tools used for statistical analysis within the 
 
 2. How we can fit and float the rate for a particular process:
 
-    <span style="color:blue">
-    For this in combine there is an option of "rateParam". We can check more details here: [link1](https://twiki.cern.ch/twiki/bin/view/CMS/HiggsWG/SWGuideNonStandardCombineUses#Rate_Parameters) and [link2](http://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part5/longexercise/#a-use-of-rateparams)
-    </span>
+<span style="color:blue">
+For this in combine there is an option of "rateParam". We can check more details here: [link1](https://twiki.cern.ch/twiki/bin/view/CMS/HiggsWG/SWGuideNonStandardCombineUses#Rate_Parameters) and [link2](http://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part5/longexercise/#a-use-of-rateparams)
+</span>
 
 3. To freeze we can use the following syntax:
 
-    ```
-    Yield_qqZZ rateParam a2_recobin0 bkg_qqzz  1
-    nuisance edit  freeze Yield_qqZZ
-    ```
+   ```
+   Yield_qqZZ rateParam a2_recobin0 bkg_qqzz  1
+   nuisance edit  freeze Yield_qqZZ
+   ```

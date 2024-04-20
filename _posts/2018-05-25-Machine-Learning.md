@@ -6,8 +6,9 @@ tags: machine-learning
 categories: machine-learning programming
 comments: true
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 1. Online resources for ML: http://www.electronicdesign.com/industrial-automation/learning-machine-learning
 
@@ -19,7 +20,7 @@ comments: true
 
 ## Error: signal and background histograms have different or invalid dimensions
 
-The   source of this error is the decorrelation. In the default example many decorrelation functions are switched on but for BDT we don't need them at all. So, we need to skip the decorrelation part.
+The source of this error is the decorrelation. In the default example many decorrelation functions are switched on but for BDT we don't need them at all. So, we need to skip the decorrelation part.
 
 The default line in TMVA where this correlation was called is:
 
@@ -27,11 +28,10 @@ The default line in TMVA where this correlation was called is:
 TMVA::Factory *factory = new TMVA::Factory( "TMVAClassification", outputFile, "!V:!Silent:Color:DrawProgressBar:Transformations=I;D;P;G,D:AnalysisType=Classification" );
 ```
 
-
-In the above line we need to change "Transformations=I;D;P;G,D" to "Transformations=I"  (where I is for identity transformation).
+In the above line we need to change "Transformations=I;D;P;G,D" to "Transformations=I" (where I is for identity transformation).
 
 ### NegWeightTreatment?
+
 ```
 For gradient boosting we should set NegWeightTreatment to Pray.
 ```
-

@@ -8,14 +8,14 @@ comments: true
 last_modified_at: 2023-02-06
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # CMS AN/PAS/Paper instructions
 
-* CMS official reference: [https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/TdrProcessing](https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/TdrProcessing)
+- CMS official reference: [https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/TdrProcessing](https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/TdrProcessing)
 
-***Commands summary***
+**_Commands summary_**
 
 ```bash
 git clone --recursive https://:@gitlab.cern.ch:8443/tdr/papers/XXX-YY-NNN.git
@@ -26,21 +26,20 @@ tdr  --style=[paper|pas|an|note] b  # the local document with the name of the di
 
 # Instructions for migration of note to overleaf
 
-* CMS twiki reference: [https://twiki.cern.ch/twiki/bin/view/Main/TDRInOverleaf](https://twiki.cern.ch/twiki/bin/view/Main/TDRInOverleaf)
+- CMS twiki reference: [https://twiki.cern.ch/twiki/bin/view/Main/TDRInOverleaf](https://twiki.cern.ch/twiki/bin/view/Main/TDRInOverleaf)
 
-***Commands summary***
+**_Commands summary_**
 
 ```bash
 
 ```
 
-
 # Obselete information about svn
+
 ## How to:
 
 svn instructions in detail are here:
-[https://twiki.cern.ch/twiki/bin/view/CMS/Internal/TdrProcessing](https://twiki.cern.ch/twiki/bin/view/CMS/Internal/TdrProcessing
-)
+[https://twiki.cern.ch/twiki/bin/view/CMS/Internal/TdrProcessing](https://twiki.cern.ch/twiki/bin/view/CMS/Internal/TdrProcessing)
 
 But here is what you need to do in your lxplus home directory:
 
@@ -48,15 +47,15 @@ But here is what you need to do in your lxplus home directory:
 
 - if working locally you need to use lxplus user name
 
-    ```sh
-    svn co -N svn+ssh://rasharma@svn.cern.ch/reps/tdr2 MyAN
-    ```
+  ```sh
+  svn co -N svn+ssh://rasharma@svn.cern.ch/reps/tdr2 MyAN
+  ```
 
 - if working at lxplus
 
-    ```sh
-    svn co -N svn+ssh://svn.cern.ch/reps/tdr2 MyAN
-    ```
+  ```sh
+  svn co -N svn+ssh://svn.cern.ch/reps/tdr2 MyAN
+  ```
 
 Then use following commands (assume that then AN on which you are working is `AN-17-236`:
 
@@ -85,16 +84,18 @@ svn ci -m "my comment e.g. MC section started" srcs/montecarlo.tex
 ```
 
 more additions:
+
 1. any time you want to edit please type: svn up first!
 2. you can check what you changed with svn status
 3. if you add plots then put it in pdf inside figures directory in some subdirectory and the you need to type
 
-    ```sh
-    svn add figures/subdir/newplot.pdf and the svn ci -m ""
-    ```
+   ```sh
+   svn add figures/subdir/newplot.pdf and the svn ci -m ""
+   ```
+
 4.
 
 # Reference
 
 1.  [https://twiki.cern.ch/twiki/bin/view/Main/TDRInOverleaf](https://twiki.cern.ch/twiki/bin/view/Main/TDRInOverleaf)
-2. [https://twiki.cern.ch/twiki/bin/view/CMS/Internal/TdrProcessing](https://twiki.cern.ch/twiki/bin/view/CMS/Internal/TdrProcessing
+2.  [https://twiki.cern.ch/twiki/bin/view/CMS/Internal/TdrProcessing](https://twiki.cern.ch/twiki/bin/view/CMS/Internal/TdrProcessing

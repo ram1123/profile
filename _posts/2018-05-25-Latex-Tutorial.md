@@ -6,8 +6,9 @@ tag: latex
 categories: MarkupLanguage
 comments: true
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Figures
 
@@ -39,17 +40,18 @@ along with this we should switch on the `clip` option to true. Only then it will
 ## Firures Positioning
 
 Few important points to note:
+
 1. The content of the image should not be broken over page.
 2. It should be labelled and correctly referenced.
 
-|specifier | positioning place |
-|:--- |:--- |
-|h | place here |
-|t | top of page |
-|b | bottom of page |
-|p | on a special page |
-|! | force the position |
-|H | place precisely at the location where it is defined |
+| specifier | positioning place                                   |
+| :-------- | :-------------------------------------------------- |
+| h         | place here                                          |
+| t         | top of page                                         |
+| b         | bottom of page                                      |
+| p         | on a special page                                   |
+| !         | force the position                                  |
+| H         | place precisely at the location where it is defined |
 
 Reference: https://www.overleaf.com/learn/latex/Positioning_of_Figures
 
@@ -65,6 +67,7 @@ For this we need to use the `\centering` as shown below:
 ```
 
 ## Multiple Figures
+
 ### way-1
 
 ```latex
@@ -132,12 +135,13 @@ This will look like:
 ![way-3]({{ site.url }}/assets/latex/latex-way-3.png){:height="560px" width="900px"}
 
 ## sub-figures
+
 Ref-1: [https://tex.stackexchange.com/questions/132599/placement-of-images-in-row-using-subfigure](https://tex.stackexchange.com/questions/132599/placement-of-images-in-row-using-subfigure)
 
 Ref-2: [https://tex.stackexchange.com/questions/278727/split-subfigures-over-multiple-pages](https://tex.stackexchange.com/questions/278727/split-subfigures-over-multiple-pages)
 
-
 # Forcing Line-Break in \url{}
+
 To line break we can use the sloppypar feature:
 
 ```latex
@@ -148,11 +152,12 @@ Madgraph cards are located here: \url{https://github.com/cms-sw/genproductions/t
 
 Reference: [https://tex.stackexchange.com/questions/3033/forcing-linebreaks-in-url](https://tex.stackexchange.com/questions/3033/forcing-linebreaks-in-url)
 
-
 # Table with alternate color row
+
 Reference: [https://tex.stackexchange.com/questions/5363/how-to-create-alternating-rows-in-a-table](https://tex.stackexchange.com/questions/5363/how-to-create-alternating-rows-in-a-table)
 
 # How to use todonotes
+
 Ref:1: [http://www.texample.net/tikz/examples/todo-notes/](http://www.texample.net/tikz/examples/todo-notes/)
 Ref:2: [todonotes manual](https://mirror.hmc.edu/ctan/macros/latex/contrib/todonotes/todonotes.pdf)
 
@@ -217,6 +222,7 @@ The angle is \ang{30}.
 Reference: [https://tex.stackexchange.com/questions/384873/what-is-the-degree-symbol](https://tex.stackexchange.com/questions/384873/what-is-the-degree-symbol)
 
 # Decrease top margin for table
+
 Just use the `\vspace{-7.5em}` inside the table environment.
 
 ```latex
@@ -228,7 +234,6 @@ Just use the `\vspace{-7.5em}` inside the table environment.
 ```
 
 Reference: [https://tex.stackexchange.com/a/168881/41568](https://tex.stackexchange.com/a/168881/41568)
-
 
 # Big O and related notations in LaTeX
 
@@ -327,5 +332,3 @@ The contents...
 
 \end{document}
 ```
-
-

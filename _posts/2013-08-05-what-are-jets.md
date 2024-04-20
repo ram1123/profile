@@ -6,8 +6,8 @@ categories: physics, jet
 comments: true
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Towards Jetography paper
 
@@ -20,15 +20,13 @@ Now, the question arise in detector:
 - How to group particles into jet?
 - How to assign a momentum to the resulting jet?
 
-
 # Fundamental of particles and their interactions by william B. Rolnick
 
 - Since the coloured objects can't break free, pairs will be created by virtual gluons in such a way as to make each emerging particles a colourless (bound) hadron. This is called **Hadronization**.
 - High-energy jets of hadrons emerge from the collision in transverse directions, one jet moving in the direction of each one of the (fast-moving) scattered quarks, so that we expect to see two high-energy jets of "scattered" particles. Their existence is a verification of the existence of the quarks themselves, even though the quarks cannot be produced as free particles.
 - In QED particle-particle scatterings are always accompanied by scatterings which produce an extra photon and that effect is reffered to as bremsstrahlung. Its rate and angular distribution, as compared to photonless scattering, is successfully calculated in QED. Similar situation exists in QCD.
 
-   Gluon bremsstrahlung, at the expected rate and with the correct angular distribution, has been seen as three-jet events (since gluons are also coloured and, therefore, can't be produced as free particles). This is a direct verification of the existence of the gauge particles (gluons) of QCD.
-
+  Gluon bremsstrahlung, at the expected rate and with the correct angular distribution, has been seen as three-jet events (since gluons are also coloured and, therefore, can't be produced as free particles). This is a direct verification of the existence of the gauge particles (gluons) of QCD.
 
 # Different possible origin of parton that lead of jet
 
@@ -38,6 +36,7 @@ Now, the question arise in detector:
 2. From hadronic decay of a heavy particle we get the partons that lead to jets. e.g. top quark, Higgs bosons, etc.
 
    If at tree-level, the heavy particle decay to many partons then a high multiplicity of corresponding jets may be a sign of the presence of that particle; and the sum of the momenta of the jets should have an invariant mass that is close to that of heavy particle. This feature is used for the measurement of the top-quark mass.
+
 3. Jets may originate radiatively, for example, from the emission of a gluon off some other parton in the event.
 
    The rate of production of such jets provide information on the value of strong coupling and is related also to the colour structure of events.
@@ -51,8 +50,8 @@ Now, the question arise in detector:
 - Generally, there is no single optimal way of defining jets.
 - Also, the idea behind the jet definitions are varied.
 - At LHC, the increase in particle multiplicity is due to following reasons:
-    + due to high energy
-    + most of it will be consequence of the multiple minimum bias interactions (pileup) or soft hadronic process that will occur in each bunch crossing.
+  - due to high energy
+  - most of it will be consequence of the multiple minimum bias interactions (pileup) or soft hadronic process that will occur in each bunch crossing.
 
 # Jet Algorithm
 
@@ -83,11 +82,3 @@ It relying on the idea of QCD branching and hadronization leaves the bulk featur
 ## Sequential recombination algorithm
 
 It repeatedly recombine the closest pair of particles according to some distance measure, usually related to the divergent structure of QCD matrix elements.
-
-
-
-
-
-
-
-

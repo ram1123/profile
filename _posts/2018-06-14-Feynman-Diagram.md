@@ -6,15 +6,16 @@ categories: MarkupLanguage
 tags: latex FeynmanDiagram
 comments: true
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Introduction
 
-* Nice summary given here: [Feynman Diagrams - ATLAS Physics Cheat Sheet](https://cds.cern.ch/record/2759490/files/Feynman%20Diagrams%20-%20ATLAS%20Cheat%20Sheet.pdf)
-
+- Nice summary given here: [Feynman Diagrams - ATLAS Physics Cheat Sheet](https://cds.cern.ch/record/2759490/files/Feynman%20Diagrams%20-%20ATLAS%20Cheat%20Sheet.pdf)
 
 # How to make Feynman Diagram in Latex
+
 Reference: [https://arxiv.org/pdf/1601.05437.pdf](https://arxiv.org/pdf/1601.05437.pdf)
 
 ```

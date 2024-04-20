@@ -6,12 +6,14 @@ categories: programming
 tags: python yaml
 comments: true
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 We need configuration file for arranging and using many information in a nice way. There are many configuration file formats like yaml, ini, etc.
 
 # yaml file format
+
 yaml [[1]] stands for "yet another markup language". It stores messages in terms of lists and dictionaries. It is optimized for data serialization, configuration settings, log files, etc.
 
 Data can be stored in two types or the combination of these two types. They are:
@@ -37,9 +39,7 @@ And mapping refers to:
 
 There are many ways we can combine these two:
 
-
 **mapping to sequences**
-
 
 ```
 Name:
@@ -53,9 +53,7 @@ Test:
  - Test5
 ```
 
-
 **sequences to mapping**
-
 
 ```
 -
@@ -82,7 +80,4 @@ for sections in ymload:
   print ymload[sections]
 ```
 
-
 [1]: http://www.yaml.org/spec/history/2001-12-10.html
-
-

@@ -6,8 +6,9 @@ categories: bash linux shell-programming
 tags: rename
 comments: true
 ---
-* Do not remove this line (it will not be displayed)
-{:toc}
+
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 ---
 
@@ -18,6 +19,7 @@ comments: true
 ```
 
 ---
+
 # rename files using move command in for loop
 
 ```bash

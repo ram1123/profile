@@ -7,8 +7,8 @@ tags: cpp
 comments: true
 ---
 
-* Do not remove this line (it will not be displayed)
-{:toc}
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 ---
 
@@ -19,6 +19,7 @@ comments: true
 # constexpr specifier
 
 # Difference between pre-increment and post-increment?
+
 Reference: https://dev.to/somedood/the-difference-between-x-and-x-44dl
 
 - pre-increment returns the value after incrementing.
@@ -32,11 +33,9 @@ https://stackoverflow.com/q/13054401/2302094
 
 http://www.cplusplus.com/reference/exception/exception/
 
-
 # vector operations
 
 vec.data(): https://www.geeksforgeeks.org/vector-data-function-in-c-stl/
-
 
 # left shift and right shift operators
 
@@ -86,8 +85,8 @@ Hex:     a>>1 = 5
 Decimal:  b>>1 = 11
 Hex:     b>>1 = b
 ```
-Reference: [https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)
 
+Reference: [https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)
 
 # Concatenate hex numbers in C
 
@@ -106,10 +105,10 @@ The result will look like:
 
 Reference: [https://stackoverflow.com/a/16208594/2302094](https://stackoverflow.com/a/16208594/2302094)
 
-
 # Shift bits??
 
 **Understand this**
+
 ```cpp=
 uint32_t ohMask = 0x200;
 uint32_t SCAADCChannel = 0x1b;
@@ -158,6 +157,7 @@ uint32_t bitCheck(uint32_t word, int bit)
   return (word >> bit) & 0x1;
 }
 ```
+
 Reference: [https://stackoverflow.com/a/44177045/2302094](https://stackoverflow.com/a/44177045/2302094)
 
 # Iterate over `enums`
@@ -179,7 +179,6 @@ for (ADCChannel::EADCChannel channelName = ADCChannel::EADCChannel::ADC_CH00; ch
     cout << channelName << endl;
 }
 ```
-
 
 # loop over arrays
 
@@ -265,7 +264,7 @@ cout << typeid(variable).name() << endl;
 
 - https://stackoverflow.com/a/11310937
 
-#  initializing a static map using function
+# initializing a static map using function
 
 ```c++
 #include <map>
@@ -285,6 +284,3 @@ map<int,int> m = create_map();
 ```
 
 - https://stackoverflow.com/a/138633/2302094
-
-
-
