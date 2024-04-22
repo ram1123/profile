@@ -7,9 +7,9 @@ tags: gem detector physics
 comments: true
 related_posts: false
 ---
-* Do not remove this line (it will not be displayed)
-  {:toc}
 
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 # Gain Measurement
 

@@ -95,9 +95,9 @@ Few good slides:
 
 1. EE L1 pre-firing issue
 
-<span style="color:blue">
-- Only exists for 2016 and 2017
-</span>
+   <span style="color:blue">
+   - Only exists for 2016 and 2017
+   </span>
 
 1. HEM Issue
 
@@ -119,5 +119,13 @@ Few good slides:
    1. [https://hypernews.cern.ch/HyperNews/CMS/get/JetMET/2000.html](https://hypernews.cern.ch/HyperNews/CMS/get/JetMET/2000.html)
    1. [https://twiki.cern.ch/twiki/bin/viewauth/CMS/ExoPreapprovalChecklist](https://twiki.cern.ch/twiki/bin/viewauth/CMS/ExoPreapprovalChecklist)
    1. [https://indico.cern.ch/event/1001783/contributions/4211420/attachments/2180698/3683527/HEMIssueCHeck_3l_channel.pdf](https://indico.cern.ch/event/1001783/contributions/4211420/attachments/2180698/3683527/HEMIssueCHeck_3l_channel.pdf)
+
+1. MET Filters
+
+   <span style="color:blue">
+   - MET filters are used to remove events with spurious MET with an uninteresting casuses such as detector noise, beam halo, cosmic rays, etc.
+   </span>
+
+   List of filters listed on the official twiki of JET-MET: [MET Filters Run-II](https://twiki.cern.ch/twiki/bin/view/CMS/MissingETOptionalFiltersRun2#Run_2_recommendations)
 
 1. EGamma VALIDATION OF 2018 UL CAMPAIGN: [talk link](https://indico.cern.ch/event/851469/contributions/3613719/attachments/1931979/3200689/2018ULvalidation_22oct2019.pdf)
