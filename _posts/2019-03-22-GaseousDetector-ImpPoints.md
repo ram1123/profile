@@ -5,10 +5,11 @@ date: 2019-03-22
 categories: detector physics
 tags: gem detector physics
 comments: true
+related_posts: false
 ---
-
-- Do not remove this line (it will not be displayed)
+* Do not remove this line (it will not be displayed)
   {:toc}
+
 
 # Gain Measurement
 

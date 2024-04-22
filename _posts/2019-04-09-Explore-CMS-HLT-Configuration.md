@@ -27,7 +27,7 @@ then
 
 # Steps
 
-1. Go to: [https://cmsweb.cern.ch/confdb/](https://cmsweb.cern.ch/confdb/)
+1. Go to: `https://cmsweb.cern.ch/confdb/`
 2. click on `Explore Database`
 3. click on `cdaq`
 4. click on `Physics`

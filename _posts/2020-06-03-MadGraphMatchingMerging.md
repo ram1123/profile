@@ -25,7 +25,7 @@ We need to perform matching to avoid the double counting while interfacing the m
 1. Differential Jet Rate (DJR) details: [https://cp3.irmp.ucl.ac.be/projects/madgraph/wiki/MatchChecker#no1](https://cp3.irmp.ucl.ac.be/projects/madgraph/wiki/MatchChecker#no1)
 2. Plot DJR in CMSSW: [https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/macros/plotdjr.C](https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/macros/plotdjr.C)
 3. Matching & Merging: [http://home.thep.lu.se/~torbjorn/talks/hcp13ts2.pdf](http://home.thep.lu.se/~torbjorn/talks/hcp13ts2.pdf)
-4. Pythia Jet Matching parameters details: [http://home.thep.lu.se/~torbjorn/pythia81html/JetMatching.html](http://home.thep.lu.se/~torbjorn/pythia81html/JetMatching.html)
+4. Pythia Jet Matching parameters details: [https://pythia.org/latest-manual/MatchingAndMerging.html](https://pythia.org/latest-manual/MatchingAndMerging.html)
 5. Tutorial on HiggsPO tool: [https://www.physik.uzh.ch/data/HiggsPO/files/HiggsPO_tutorial.pdf](https://www.physik.uzh.ch/data/HiggsPO/files/HiggsPO_tutorial.pdf)
 6. Searching for W' using b-tagging, hadronic taus, and missing energy: [https://indico.cern.ch/event/724045/contributions/3004385/attachments/1652996/2644783/Mitchell2018.pdf](https://indico.cern.ch/event/724045/contributions/3004385/attachments/1652996/2644783/Mitchell2018.pdf)
 7. Matching: how to chose the xqcut value? [https://answers.launchpad.net/mg5amcnlo/+question/264266](https://answers.launchpad.net/mg5amcnlo/+question/264266)
