@@ -4,7 +4,7 @@ title: "RF Cavity Basics"
 date: 2019-09-18
 tags: rf-cavity lhc accelerator
 categories: physics
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

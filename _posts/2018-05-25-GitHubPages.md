@@ -4,7 +4,7 @@ title: "How to GitHub Pages"
 date: 2018-05-25
 categories: VCS
 tags: git
-comments: true
+giscus_comments: true
 last_modified_at: 2022-09-05
 ---
 

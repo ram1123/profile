@@ -4,7 +4,7 @@ title: "List of Lectures"
 date: 2018-07-15
 tags: particle-physics lectures
 categories: physics lectures
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

@@ -4,7 +4,7 @@ title: "Feynman Diagram"
 date: 2018-06-14
 categories: MarkupLanguage
 tags: latex FeynmanDiagram
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

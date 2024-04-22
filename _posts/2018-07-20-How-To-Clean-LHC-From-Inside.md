@@ -4,7 +4,7 @@ title: "How To Clean LHC"
 date: 2018-07-20
 categories: physics lhc
 tags: lhc particle-physics
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

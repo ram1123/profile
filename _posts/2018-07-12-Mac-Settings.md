@@ -4,7 +4,7 @@ title: "Mac Settings"
 date: 2018-07-12
 categories: mac
 tags: mac
-comments: true
+giscus_comments: true
 last_modified_at: 2022-09-05
 ---
 

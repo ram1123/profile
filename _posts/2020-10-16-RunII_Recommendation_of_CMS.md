@@ -4,7 +4,7 @@ title: "RunII Recommendation of CMS"
 date: 2020-10-16
 categories: cms HEPAnalysis
 tags: physics cms CMSrecommendation
-comments: true
+giscus_comments: true
 last_modified_at: 2022-05-11
 ---
 

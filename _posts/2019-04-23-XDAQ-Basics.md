@@ -4,7 +4,7 @@ title: "XDAQ Basics"
 date: 2019-04-23
 tags: gem daq
 categories: physics
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

@@ -4,7 +4,7 @@ title: "How To AN in CMS"
 date: 2018-05-24
 tags: svn cms
 categories: tools
-comments: true
+giscus_comments: true
 last_modified_at: 2023-02-06
 ---
 

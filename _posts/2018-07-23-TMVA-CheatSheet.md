@@ -4,7 +4,7 @@ title: "TMVA CheatSheet"
 date: 2018-07-04
 categories: tools programming
 tags: root cpp pyroot tmva tools
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

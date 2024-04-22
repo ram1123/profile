@@ -4,7 +4,7 @@ title: "GridPack Generation"
 date: 2019-03-20
 categories: mc-generators
 tags: mc-generators madgraph gridpack genproduction
-comments: true
+giscus_comments: true
 last_modified_at: 2022-11-11
 ---
 

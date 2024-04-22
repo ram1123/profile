@@ -4,7 +4,7 @@ title: "Latex Commands"
 date: 2018-05-25
 tag: latex
 categories: MarkupLanguage
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

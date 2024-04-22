@@ -4,7 +4,7 @@ title: "LPC Account Setting"
 date: 2018-08-30
 tags: lpc cluster settings
 categories: grid
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

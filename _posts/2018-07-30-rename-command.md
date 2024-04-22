@@ -4,7 +4,7 @@ title: "rename multiple files"
 date: 2018-07-30
 categories: bash linux shell-programming
 tags: rename
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

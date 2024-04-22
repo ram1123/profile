@@ -4,7 +4,7 @@ title: "LCG uses at lxplus"
 date: 2022-03-04
 categories: tools
 tags: cms LCG lxplus
-comments: true
+giscus_comments: true
 last_modified_at: 2022-03-04
 ---
 

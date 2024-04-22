@@ -3,7 +3,7 @@ layout: post
 title: "What are Jets?"
 date: 2013-08-05
 categories: physics, jet
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

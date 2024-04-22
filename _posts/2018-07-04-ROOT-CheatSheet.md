@@ -4,7 +4,7 @@ title: "ROOT CheatSheet"
 date: 2018-07-04
 categories: programming
 tags: root cpp pyroot
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

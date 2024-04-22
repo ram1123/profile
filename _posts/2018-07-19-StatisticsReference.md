@@ -4,7 +4,7 @@ title: "Statistics"
 date: 2018-07-19
 categories: statistics
 tags: statistics cms tools programming
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

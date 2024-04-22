@@ -3,7 +3,7 @@ layout: post
 title: "matplotlib"
 date: 2021-06-02
 categories: python, matplotlib
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

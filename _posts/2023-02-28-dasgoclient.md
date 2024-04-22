@@ -3,7 +3,7 @@ layout: post
 title: "dasgoclient"
 date: 2023-02-28
 categories: dasgoclient, cms
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

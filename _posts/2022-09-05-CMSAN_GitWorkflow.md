@@ -4,7 +4,7 @@ title: "GitLab workflow for CMS-AN"
 date: 2022-09-05
 tags: gitlab cms-AN
 categories: git
-comments: true
+giscus_comments: true
 last_modified_at: 2022-09-05
 ---
 

@@ -4,7 +4,7 @@ title: "Higgs Combine Tool"
 date: 2018-07-05
 categories: statistics
 tags: statistics cms-combine
-comments: true
+giscus_comments: true
 last_modified_at: 2022-05-10
 ---
 

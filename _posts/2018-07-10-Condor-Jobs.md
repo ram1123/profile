@@ -4,7 +4,7 @@ title: "Condor Jobs"
 date: 2018-07-10
 categories: cms tools
 tags: condor
-comments: true
+giscus_comments: true
 last_modified_at: 2022-11-11
 ---
 

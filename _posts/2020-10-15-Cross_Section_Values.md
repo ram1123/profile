@@ -4,7 +4,7 @@ title: "Cross-Section Values"
 date: 2020-10-15
 categories: physics PhysicsAnalysis
 tags: physics cms cross-section
-comments: true
+giscus_comments: true
 related_posts: false
 ---
 

@@ -4,7 +4,7 @@ title: "Sphinx: Python code documentation tool"
 date: 2019-12-03
 categories: tools
 tags: sphinx docGenerator
-comments: true
+giscus_comments: true
 last_modified_at: 2022-04-28
 ---
 

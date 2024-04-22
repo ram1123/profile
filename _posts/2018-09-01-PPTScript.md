@@ -4,7 +4,7 @@ title: "PPT with plots in one click"
 date: 2018-09-01
 categories: scripts
 tags: ppt-script
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

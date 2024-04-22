@@ -4,7 +4,7 @@ title: "C++ CheatSheet"
 date: 2018-07-17
 categories: programming
 tags: cpp
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

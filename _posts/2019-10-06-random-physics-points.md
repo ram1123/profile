@@ -4,7 +4,7 @@ title: "Random Physics Points"
 date: 2019-10-06
 categories: physics
 tags: physics particle-physics Wjets Zjets QCD VBS custodialSymmetry hadrons
-comments: true
+giscus_comments: true
 related_posts: false
 ---
 

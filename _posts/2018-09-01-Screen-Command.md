@@ -4,7 +4,7 @@ title: "Terminal multiplexer (screen/tmux)"
 date: 2018-09-01
 categories: bash linux shell-programming
 tags: screen tmux
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

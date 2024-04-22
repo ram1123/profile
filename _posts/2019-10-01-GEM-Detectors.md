@@ -4,7 +4,7 @@ title: "GEM Detectors"
 date: 2019-10-01
 tags: gem detector GE11
 categories: detector
-comments: true
+giscus_comments: true
 last_modified_at: 2019-10-01
 ---
 

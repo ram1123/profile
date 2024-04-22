@@ -4,7 +4,7 @@ title: "Particle Physics For General Public"
 date: 2018-05-25
 categories: physics
 tags: particle-physics links PhysicsForPublic accelerators
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

@@ -4,7 +4,7 @@ title: "Singularity at CMS"
 date: 2021-06-17
 categories: tools
 tags: cms singularity
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

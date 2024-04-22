@@ -4,7 +4,7 @@ title: "Latex Templates"
 date: 2019-09-17
 tags: latex
 categories: programming
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

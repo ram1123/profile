@@ -4,7 +4,7 @@ title: "Different Configuration File Formats"
 date: 2018-07-20
 categories: programming
 tags: python yaml
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

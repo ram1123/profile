@@ -4,7 +4,7 @@ title: "Machine Learning"
 date: 2018-05-25
 tags: machine-learning
 categories: machine-learning programming
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

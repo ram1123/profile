@@ -4,7 +4,7 @@ title: "Accelerator Basics"
 date: 2019-09-10
 categories: physics
 tags: accelerator
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

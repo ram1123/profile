@@ -4,7 +4,7 @@ title: "CMS Grid Certificate"
 date: 2018-08-17
 tags: cern cms grid
 categories: grid
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

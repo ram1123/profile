@@ -4,7 +4,7 @@ title: "Some Good Reference For Thesis"
 date: 2018-05-25
 categories: physics
 tags: particle-physics links tracker lectures symmetry neutrino LHCCollision BoostedWZ
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

@@ -4,7 +4,7 @@ title: "Bash Shell"
 date: 2019-10-04
 categories: bash shell programming
 tags: bash
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)

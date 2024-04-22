@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+giscus_comments: true
 title: "Synchrotron Radiation"
 date: 2019-03-22
 categories: physics

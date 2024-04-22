@@ -4,7 +4,7 @@ title: "Negative Weight Treatment (Madgraph)"
 date: 2020-05-21
 categories: PhysicsAnalysis
 tags: cms madgraph PhysicsAnalysis GenWeight
-comments: true
+giscus_comments: true
 ---
 
 - Do not remove this line (it will not be displayed)
