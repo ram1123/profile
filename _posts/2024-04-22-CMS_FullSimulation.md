@@ -40,7 +40,6 @@ The simulation process involves several steps, which are outlined in the reposit
 2. **Modify Configuration:** Append a random number generator to the configuration to ensure unique event generation, number of events, logger frequency, gridpack path, etc.
 3. **Run Scripts Sequentially:** Execute each script in the proper sequence to process events through multiple CMS data formats.
 
-
 # Conclusion
 
 This repository significantly simplifies the task of running full detector simulations for the CMS experiment.

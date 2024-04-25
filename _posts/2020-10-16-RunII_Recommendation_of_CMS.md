@@ -8,21 +8,40 @@ giscus_comments: true
 last_modified_at: 2022-05-11
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+***Table of Contents***
+
+- [NanoAOD](#nanoaod)
+- [pdmv page](#pdmv-page)
+- [Data](#data)
+- [Luminosity](#luminosity)
+- [EGamma](#egamma)
+- [Muons](#muons)
+- [Jet](#jet)
+- [MET](#met)
+- [Systematic Uncertainty (Run-2)](#systematic-uncertainty-run-2)
+- [Theory Uncertainty](#theory-uncertainty)
+- [FAQ](#faq)
+
+# NanoAOD
+
+- NanoAOD twiki: [NanoAOD workbook](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookNanoAOD)
+
 
 # pdmv page
 
 - Main page: [https://twiki.cern.ch/twiki/bin/view/CMS/PdmV](https://twiki.cern.ch/twiki/bin/view/CMS/PdmV)
 - UL information: [https://twiki.cern.ch/twiki/bin/view/CMS/PdmVRun2LegacyAnalysis](https://twiki.cern.ch/twiki/bin/view/CMS/PdmVRun2LegacyAnalysis)
 
+
 # Data
 
 - Golden JSON files can be grabbed from here: [https://twiki.cern.ch/twiki/bin/viewauth/CMS/TWikiLUM](https://twiki.cern.ch/twiki/bin/viewauth/CMS/TWikiLUM)
 
+
 # Luminosity
 
 - Luminosity Physics Object Group (Lumi POG) : [https://twiki.cern.ch/twiki/bin/view/CMS/TWikiLUM#SummaryTable](https://twiki.cern.ch/twiki/bin/view/CMS/TWikiLUM#SummaryTable)
+
 
 # EGamma
 
@@ -32,21 +51,25 @@ last_modified_at: 2022-05-11
    - [https://twiki.cern.ch/twiki/bin/view/CMS/EgIdentification](https://twiki.cern.ch/twiki/bin/view/CMS/EgIdentification)
 3. EGamma Effective area correction:
    - [https://twiki.cern.ch/twiki/bin/view/CMS/EgammaEARhoCorrection](https://twiki.cern.ch/twiki/bin/view/CMS/EgammaEARhoCorrection)
+4. EGamma Scale Facor: [EgammaSFJSON](https://twiki.cern.ch/twiki/bin/viewauth/CMS/EgammaSFJSON)
+
 
 # Muons
 
 1. Muon base line selection for runII
    - [https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideMuonIdRun2](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideMuonIdRun2)
 
+
 # Jet
 
 1. [https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID](https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID)
-1. b Tag & Vertexing Physics Object Group
+2. b Tag & Vertexing Physics Object Group
    - [https://twiki.cern.ch/twiki/bin/view/CMS/BtagPOG](https://twiki.cern.ch/twiki/bin/view/CMS/BtagPOG)
    - Recommendation for Using b-tag Objects in Physics Analyses
      - [https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation](https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation)
-1. Recommended Jet Energy Corrections and Uncertainties For Data and MC
+3. Recommended Jet Energy Corrections and Uncertainties For Data and MC
    - [https://twiki.cern.ch/twiki/bin/view/CMS/JECDataMC](https://twiki.cern.ch/twiki/bin/view/CMS/JECDataMC)
+
 
 # MET
 
@@ -57,9 +80,11 @@ last_modified_at: 2022-05-11
 3. MET Corrections:
    - [https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookMetAnalysis#7_7_6_MET_Corrections](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookMetAnalysis#7_7_6_MET_Corrections)
 
+
 # Systematic Uncertainty (Run-2)
 
 - [https://twiki.cern.ch/twiki/bin/view/CMS/TopSystematics](https://twiki.cern.ch/twiki/bin/view/CMS/TopSystematics)
+
 
 ## Theory Uncertainty
 
@@ -71,6 +96,7 @@ Few good slides:
 
 1. [http://nnpdf.mi.infn.it/wp-content/uploads/2018/09/MUbiali_CERN_112016.pdf](http://nnpdf.mi.infn.it/wp-content/uploads/2018/09/MUbiali_CERN_112016.pdf)
 1. PDFs for LHC Physics: [https://indico.fnal.gov/event/24574/contributions/118019/attachments/76683/91877/huston_anl_2017.pdf](https://indico.fnal.gov/event/24574/contributions/118019/attachments/76683/91877/huston_anl_2017.pdf)
+
 
 # FAQ
 
@@ -84,6 +110,7 @@ Few good slides:
 
    1. [https://hypernews.cern.ch/HyperNews/CMS/get/physTools/3813/1.html](https://hypernews.cern.ch/HyperNews/CMS/get/physTools/3813/1.html)
 
+
 1. Difference between `Summer19` and `Summer20` campaign?
 
    <span style="color:blue">
@@ -93,11 +120,13 @@ Few good slides:
 
    Reference: [https://twiki.cern.ch/twiki/bin/viewauth/CMS/PdmVRun2LegacyAnalysis](https://twiki.cern.ch/twiki/bin/viewauth/CMS/PdmVRun2LegacyAnalysis)
 
+
 1. EE L1 pre-firing issue
 
    <span style="color:blue">
    - Only exists for 2016 and 2017
    </span>
+
 
 1. HEM Issue
 
@@ -120,6 +149,7 @@ Few good slides:
    1. [https://twiki.cern.ch/twiki/bin/viewauth/CMS/ExoPreapprovalChecklist](https://twiki.cern.ch/twiki/bin/viewauth/CMS/ExoPreapprovalChecklist)
    1. [https://indico.cern.ch/event/1001783/contributions/4211420/attachments/2180698/3683527/HEMIssueCHeck_3l_channel.pdf](https://indico.cern.ch/event/1001783/contributions/4211420/attachments/2180698/3683527/HEMIssueCHeck_3l_channel.pdf)
 
+
 1. MET Filters
 
    <span style="color:blue">
@@ -127,5 +157,6 @@ Few good slides:
    </span>
 
    List of filters listed on the official twiki of JET-MET: [MET Filters Run-II](https://twiki.cern.ch/twiki/bin/view/CMS/MissingETOptionalFiltersRun2#Run_2_recommendations)
+
 
 1. EGamma VALIDATION OF 2018 UL CAMPAIGN: [talk link](https://indico.cern.ch/event/851469/contributions/3613719/attachments/1931979/3200689/2018ULvalidation_22oct2019.pdf)
