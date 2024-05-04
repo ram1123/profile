@@ -7,8 +7,13 @@ categories: programming
 giscus_comments: true
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 List of few templates are given below:
 

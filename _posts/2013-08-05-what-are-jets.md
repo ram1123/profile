@@ -6,8 +6,13 @@ categories: physics, jet
 giscus_comments: true
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 # Towards Jetography paper
 

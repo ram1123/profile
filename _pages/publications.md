@@ -7,6 +7,10 @@ nav: true
 nav_order: 2
 ---
 
+Full list of publication can be found at link: [Inspire-HEP](https://inspirehep.net/authors/1231550?ui-citation-summary=true)
+
+## The list of publication where I am main author or spreaheaded the analysis is given below:
+
 <!-- _pages/publications.md -->
 <div class="publications">
 

@@ -7,8 +7,13 @@ tags: screen tmux
 giscus_comments: true
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 A terminal multiplexer is a software tool that allows multiple terminal sessions to run within a single terminal window, or within a single instance of a terminal emulator. Terminal multiplexers provide a way to manage multiple terminal sessions more efficiently, and can be especially useful for users who work with many terminal windows at once, or who need to maintain terminal sessions after disconnecting from a remote server.
 

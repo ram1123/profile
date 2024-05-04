@@ -6,8 +6,13 @@ categories: mc-generators
 giscus_comments: true
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 # How to estimate the pdf & scale uncertanities
 

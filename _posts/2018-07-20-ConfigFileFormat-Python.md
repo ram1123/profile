@@ -7,8 +7,13 @@ tags: python yaml
 giscus_comments: true
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 We need configuration file for arranging and using many information in a nice way. There are many configuration file formats like yaml, ini, etc.
 

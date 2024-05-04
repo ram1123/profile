@@ -5,15 +5,20 @@ date: 2018-07-12
 categories: mac
 tags: mac
 giscus_comments: true
-last_modified_at: 2022-09-05
+last_modified_at: 2024-05-04
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 # Software that HEP poeple need on mac
 
-1. [Skype](https://www.skype.com/en/)
+...
 2. [Zoom](https://cern.zoom.us/download)
 3. Download Mac `self service` from CERN: [link](https://devices.docs.cern.ch/devices/mac/MacSelfService/). This will be download in background once you enroll and install proper certificates. Then from self-service one can install following software:
    1. xquartz (needed for visulations, as Mac OSX does not come with an X11 server installed.)
@@ -127,7 +132,27 @@ brew info root6
 
 Reference: [https://alexpearce.me/2016/02/root-on-os-x-el-capitan/](https://alexpearce.me/2016/02/root-on-os-x-el-capitan/)
 
-# Prevent SSH from disconnecting
+## kerberos setup for lxplus
+
+1. Install "kerberos config file new" from _Mac Self-Service_. It can be found in the category "Configuration" of the _Mac Self-Service_.
+2. Create a kerberos token using command: `kinit yourCernAccountName`
+3. In file `~/.ssh/config` (if it does not exists create it) add following line:
+
+   ```bash
+   #
+   Host lxplus.cern.ch aiadm.cern.ch mylinuxbox.cern.ch pcmydepmygroup*.cern.ch
+
+   GSSAPIAuthentication yes
+   GSSAPIDelegateCredentials yes
+   ```
+
+4. Then login as usual using ssh. It should login without any password.
+
+Reference: [https://devices.docs.cern.ch/devices/mac/AboutKerberosAndSsh/](https://devices.docs.cern.ch/devices/mac/AboutKerberosAndSsh/)
+
+# Some common issues and solutions
+
+## Prevent SSH from disconnecting
 
 Because of firewall or load-balancer the ssh session drops after being in ideal state for some time. To prevent this, one can configure the session to keepalive, which will prevent the the network device to consider it as ideal.
 
@@ -147,20 +172,16 @@ this line in file `/etc/ssh/ssh_config` or `~/.ssh/config`.
 
 Reference: [https://superuser.com/questions/699676/how-to-prevent-ssh-from-disconnecting-if-its-been-idle-for-a-while](https://superuser.com/questions/699676/how-to-prevent-ssh-from-disconnecting-if-its-been-idle-for-a-while)
 
-# kerberos setup for lxplus
 
-1. Install "kerberos config file new" from _Mac Self-Service_. It can be found in the category "Configuration" of the _Mac Self-Service_.
-2. Create a kerberos token using command: `kinit yourCernAccountName`
-3. In file `~/.ssh/config` (if it does not exists create it) add following line:
 
-   ```bash
-   #
-   Host lxplus.cern.ch aiadm.cern.ch mylinuxbox.cern.ch pcmydepmygroup*.cern.ch
+## Mac not recognizing the charger
 
-   GSSAPIAuthentication yes
-   GSSAPIDelegateCredentials yes
-   ```
+For me this is fixed after SMC reset. To reset SMC follow below steps:
 
-4. Then login as usual using ssh. It should login without any password.
+1. Shut down the Mac.
+1. Remove any peripherals connected to the Mac.
+1. Press the **right Shift key**, the **left Option key**, and the **left Control key** for 7 seconds. Then press and hold the **power button** for another 7 seconds, along with the other three keys.
+1. Keep holding down all four keys for another 7 seconds, then release them.
+1. After some time, press the power button to turn on the Mac.
 
-Reference: [https://devices.docs.cern.ch/devices/mac/AboutKerberosAndSsh/](https://devices.docs.cern.ch/devices/mac/AboutKerberosAndSsh/)
+Reference: [https://www.avg.com/en/signal/reset-mac-pram-nvram-smc](https://www.avg.com/en/signal/reset-mac-pram-nvram-smc)

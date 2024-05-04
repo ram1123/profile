@@ -8,8 +8,13 @@ giscus_comments: true
 last_modified_at: 2022-09-05
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 A gitlab workflow for analysis is given in this blog. This is a general git workflow, summarised in terms of CMS-AN.
 

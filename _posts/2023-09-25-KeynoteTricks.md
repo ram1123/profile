@@ -8,8 +8,13 @@ giscus_comments: true
 last_modified_at: 2023-08-25
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 # Create template for Keynote
 

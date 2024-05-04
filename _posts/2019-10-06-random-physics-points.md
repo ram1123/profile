@@ -8,8 +8,13 @@ giscus_comments: true
 related_posts: false
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 # Difference in W+jets and Z+jets events
 

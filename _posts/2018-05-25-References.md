@@ -7,8 +7,13 @@ tags: particle-physics links tracker lectures symmetry neutrino LHCCollision Boo
 giscus_comments: true
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 - Reconstruction of boosted W and Z bosons from fat jets [link](http://www.google.com/url?q=http%3A%2F%2Fdiscoverycenter.nbi.ku.dk%2Fteaching%2Fthesis_page%2Fheinrich_thesis.pdf&sa=D&sntz=1&usg=AFQjCNGtUFPXYZDt7PkintqrUE9O3iQ3sg)
 

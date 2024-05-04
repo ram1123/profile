@@ -7,8 +7,13 @@ categories: physics
 tags: particle-physics Synchrotron-radiation
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 In a circular collider, for a particle moving with velocity, v ($$\approx c$$) acceleration (a) is given by
 

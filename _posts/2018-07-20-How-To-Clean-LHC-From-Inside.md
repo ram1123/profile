@@ -7,8 +7,13 @@ tags: lhc particle-physics
 giscus_comments: true
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 LHC is incredebly cold and its operated at very strong vacuum. But, in reality we could not attain the perfect vacuum, so, inside LHC there are tiny number of small number of gas molucules left in LHC and many of them remain frozen to the beam pipe. We have to clean it as much as possible. This cleaning process of LHC is known as “scrubbing”. This is so important for the stable operation of LHC such that there is an entire team (they are called scrubbin team), who is responsible for it.
 

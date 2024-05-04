@@ -7,8 +7,13 @@ categories: machine-learning programming
 giscus_comments: true
 ---
 
-- Do not remove this line (it will not be displayed)
-  {:toc}
+# Table of Contents
+{: .no_toc}
+
+* TOC
+{:toc}
+
+------------------------------------
 
 1. Online resources for ML: http://www.electronicdesign.com/industrial-automation/learning-machine-learning
 
